@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5dc; /* Beige */
+  color: #000; /* Black */
+}
+
+/* Header and Navigation */
+header {
+  position: fixed;
+  top: 0;
+  width: 97%;
+  background-color: #000; /* Black */
+  color: #f5f5dc; /* Beige */
+  padding: 0.5rem 2rem;
+  z-index: 1000;
+  transition: top 0.5s ease;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #f5f5dc;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #f5f5dc;
+  color: #000;
+  border-radius: 4px;
+}
+
+/* Home Section */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 20px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f5f5dc, #d3cbb8);
+}
+
+.intro-text {
+  max-width: 60%;
+}
+
+.intro-text h1 {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.intro-text p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #000;
+  color: #f5f5dc;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #f5f5dc;
+  color: #000;
+}
+
+.profile-photo img {
+  width: 500px;
+  height: 400px;
+  border-radius: 100%;
+  border: 6px solid #000;
+}
+
+/* Sections */
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #000;
+  color: #f5f5dc;
+}
+/* Social Media Links */
+.social-media {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 10px;
+  transition: color 0.3s, transform 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.social-link i {
+  font-size: 1.5rem;
+}
+
+.social-link:hover {
+  color: #d3cbb8;
+  transform: scale(1.1);
+}
